@@ -104,7 +104,7 @@ public class MainActivity extends AppCompatActivity {
                         }
                     });
                 }
-                Log.d(TAG, "startThread: " + i);
+                Log.d(TAG, "startThread " + i);
                 try {
                     Thread.sleep(1000);
                 } catch (InterruptedException e) {
